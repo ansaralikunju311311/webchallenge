@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Together We Say No to Drugs | Family Campaign</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .fade-in {
+      animation: fadeIn 1.5s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-green-50 via-white to-red-50 min-h-screen flex flex-col">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-lg py-4 px-6 flex justify-between items-center sticky top-0 z-50">
+    <div class="flex items-center space-x-2">
+      <img src="https://img.icons8.com/color/48/000000/no-drugs.png" alt="No Drugs Logo" class="w-10 h-10">
+      <span class="font-bold text-xl text-red-600 tracking-wide">Say NO to Drugs</span>
+    </div>
+    <ul class="hidden md:flex space-x-8 text-gray-700 font-semibold">
+      <li><a href="#home" class="hover:text-red-500 transition">Home</a></li>
+      <li><a href="#about" class="hover:text-red-500 transition">About</a></li>
+      <li><a href="#education" class="hover:text-red-500 transition">Education</a></li>
+      <li><a href="#community" class="hover:text-red-500 transition">Community</a></li>
+      <li><a href="#resources" class="hover:text-red-500 transition">Resources</a></li>
+      <li><a href="#contact" class="hover:text-red-500 transition">Contact</a></li>
+      <li><a href="#contact-help" class="hover:text-red-500 transition">Contact & Help</a></li>
+    </ul>
+    <div class="md:hidden">
+      <button class="text-gray-700">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Background Poster -->
+  <section id="home" class="relative h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80');">
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+    <div class="relative z-10 text-center px-6">
+      <h1 class="text-5xl md:text-6xl font-extrabold text-white mb-6 drop-shadow-lg">Say NO to Drugs</h1>
+      <p class="text-lg md:text-2xl text-white mb-8 font-medium drop-shadow">Join the movement to build a healthier, drug-free community. Every choice matters!</p>
+      <a href="#resources" class="inline-block bg-red-600 text-white px-8 py-3 rounded-full font-semibold text-lg shadow-lg hover:bg-red-700 transition">Get Involved</a>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="py-12 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="bg-green-50 p-6 rounded-xl shadow">
+          <div class="text-3xl font-bold text-green-700">85%</div>
+          <p class="text-gray-600">of teens say parents influence their decision to stay drug-free</p>
+        </div>
+        <div class="bg-red-50 p-6 rounded-xl shadow">
+          <div class="text-3xl font-bold text-red-600">4x</div>
+          <p class="text-gray-600">less likely to use drugs when parents talk regularly about risks</p>
+        </div>
+        <div class="bg-green-50 p-6 rounded-xl shadow">
+          <div class="text-3xl font-bold text-green-700">200+</div>
+          <p class="text-gray-700">community programs nationwide supporting families</p>
+        </div>
+        <div class="bg-red-50 p-6 rounded-xl shadow">
+          <div class="text-3xl font-bold text-red-600">70%</div>
+          <p class="text-gray-600">reduction in drug use with family involvement</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 bg-gradient-to-r from-red-50 via-white to-red-50">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-red-700 mb-8 text-center">Why Say NO to Drugs</h2>
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div class="fade-in">
+          <img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=600&q=80" alt="Say No To Drugs" class="rounded-2xl shadow-lg w-full h-64 object-cover">
+        </div>
+        <div class="fade-in">
+          <p class="text-gray-800 mb-4">Drug abuse destroys lives and communities. Saying NO to drugs means choosing a path of health, opportunity, and freedom. Every time you say NO, you're saying YES to a better future.</p>
+          <ul class="list-disc list-inside text-gray-700 space-y-2">
+            <li>Drugs damage your physical and mental health</li>
+            <li>Addiction destroys relationships and opportunities</li>
+            <li>Drug abuse leads to legal problems and financial ruin</li>
+            <li>Communities suffer from increased crime and violence</li>
+            <li>Recovery is possible, but prevention is better</li>
+          </ul>
+          <div class="mt-4">
+            <a href="#education" class="text-red-600 font-semibold underline">Learn about prevention →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Educational Materials Section -->
+  <section id="education" class="py-16 px-6 bg-green-50">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-green-700 mb-8 text-center">Say NO to Drugs Resources</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center fade-in">
+          <img src="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=400&q=80" alt="Anti-Drug Education" class="rounded-xl w-full h-40 object-cover mb-4">
+          <h3 class="text-xl font-bold text-green-600 mb-2">Anti-Drug Education</h3>
+          <p class="text-gray-700 text-center mb-3">Learn about the dangers of drug abuse and how to resist peer pressure. Knowledge is your first defense against addiction.</p>
+          <a href="#" class="text-green-700 font-semibold underline">Get Resources</a>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center fade-in">
+          <img src="https://images.unsplash.com/photo-1584483766114-2cea6facdf57?auto=format&fit=crop&w=400&q=80" alt="Say No Campaign" class="rounded-xl w-full h-40 object-cover mb-4">
+          <h3 class="text-xl font-bold text-green-600 mb-2">Say NO Campaign</h3>
+          <p class="text-gray-700 text-center mb-3">Materials for schools and communities to spread the anti-drug message. Posters, videos, and presentation materials.</p>
+          <a href="#" class="text-green-700 font-semibold underline">Download Materials</a>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center fade-in">
+          <img src="https://images.unsplash.com/photo-1517486808906-bcfd4ca60f91?auto=format&fit=crop&w=400&q=80" alt="Prevention Strategies" class="rounded-xl w-full h-40 object-cover mb-4">
+          <h3 class="text-xl font-bold text-green-600 mb-2">Prevention Strategies</h3>
+          <p class="text-gray-700 text-center mb-3">Effective approaches to prevent drug abuse before it starts. Practical tools for parents, educators, and community leaders.</p>
+          <a href="#" class="text-green-700 font-semibold underline">Learn Strategies</a>
+        </div>
+      </div>
+      <div class="mt-10 text-center">
+        <a href="#resources" class="inline-block px-8 py-3 bg-green-600 text-white font-bold rounded-full shadow hover:bg-green-700 transition">Get All Anti-Drug Resources</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prevention Resources Section -->
+  <section id="prevention" class="py-16 px-6 bg-red-50">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-red-700 mb-8 text-center">Prevention Resources</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Healthy Choices" class="w-24 h-24 object-cover rounded-full mb-4">
+          <h3 class="text-lg font-semibold text-green-700 mb-2">Healthy Choices Guide</h3>
+          <p class="text-gray-600 mb-3">Discover fun, healthy activities that keep you engaged and drug-free.</p>
+          <a href="#" class="text-blue-600 hover:underline">Explore Activities</a>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+          <img src="https://images.unsplash.com/photo-1519125323398-b7bdd4587208?auto=format&fit=crop&w=400&q=80" alt="Peer Pressure Tips" class="w-24 h-24 object-cover rounded-full mb-4">
+          <h3 class="text-lg font-semibold text-green-700 mb-2">Peer Pressure Tips</h3>
+          <p class="text-gray-600 mb-3">Learn how to confidently say NO to drugs and support your friends.</p>
+          <a href="#" class="text-blue-600 hover:underline">Get Tips</a>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+          <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=400&q=80" alt="Parent Resources" class="w-24 h-24 object-cover rounded-full mb-4">
+          <h3 class="text-lg font-semibold text-green-700 mb-2">Parent Resources</h3>
+          <p class="text-gray-600 mb-3">Find guides and conversation starters to help parents talk about drugs.</p>
+          <a href="#" class="text-blue-600 hover:underline">Parent Guides</a>
+        </div>
+      </div>
+      <div class="mt-10 text-center">
+        <a href="#resources" class="inline-block px-8 py-3 bg-red-600 text-white font-bold rounded-full shadow hover:bg-red-700 transition">Explore More Prevention Tools</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Community Campaigns Section -->
+  <section id="community" class="py-16 px-6 bg-gradient-to-r from-red-50 via-white to-red-50">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-red-700 mb-8 text-center">Say NO to Drugs Campaigns</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center fade-in">
+          <img src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&w=400&q=80" alt="Anti-Drug Campaign" class="rounded-xl w-full h-40 object-cover mb-4">
+          <h3 class="text-xl font-bold text-red-600 mb-2">Anti-Drug Awareness</h3>
+          <p class="text-gray-700 text-center mb-3">Our nationwide "Say NO to Drugs" campaign reaches millions through billboards, social media, and community events.</p>
+          <a href="#" class="text-red-700 font-semibold underline">View Campaign</a>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center fade-in">
+          <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=400&q=80" alt="School Anti-Drug Programs" class="rounded-xl w-full h-40 object-cover mb-4">
+          <h3 class="text-xl font-bold text-red-600 mb-2">School NO Drugs Programs</h3>
+          <p class="text-gray-700 text-center mb-3">Engaging students in the fight against drugs through educational assemblies, peer mentoring, and creative competitions.</p>
+          <a href="#" class="text-red-700 font-semibold underline">Join Programs</a>
+        </div>
+      </div>
+      <div class="mt-10 p-8 bg-red-100 rounded-2xl shadow-lg">
+        <h3 class="text-2xl font-bold text-red-700 mb-4 text-center">Stand Up & Say NO to Drugs</h3>
+        <p class="text-gray-700 text-center mb-6">Your voice matters in the fight against drug abuse. Report suspicious activities, educate others, and support those struggling with addiction.</p>
+        <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+          <a href="#" class="px-6 py-3 bg-red-600 text-white text-center rounded-lg font-bold shadow hover:bg-red-700 transition">Report Drug Activity</a>
+          <a href="#" class="px-6 py-3 bg-green-600 text-white text-center rounded-lg font-bold shadow hover:bg-green-700 transition">Join Anti-Drug Movement</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Police Campaign Highlights Section -->
+  <section class="py-16 bg-green-50" id="campaign-highlights">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-green-800 mb-4">Police Campaign Highlights</h2>
+      <p class="text-lg text-gray-700 mb-8">Join the Kerala Police and communities across India in the fight against drugs. Together, we can build a drug-free society.</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-lg font-semibold text-red-700 mb-2">Slogan</h3>
+          <p class="text-gray-600 italic">“Say No to Drugs, Yes to Life!”</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-lg font-semibold text-red-700 mb-2">Community Action</h3>
+          <p class="text-gray-600">Participate in awareness rallies, school programs, and local workshops led by police and NGOs.</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-lg font-semibold text-red-700 mb-2">Anonymous Reporting</h3>
+          <p class="text-gray-600">Your identity is safe. Report drug-related activity to help protect your community.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Say No? Facts Section -->
+  <section class="py-16 bg-white" id="why-say-no-facts">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-red-700 mb-4">Why Say No?</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-red-50 rounded-lg shadow p-6">
+          <h3 class="text-lg font-semibold text-red-700 mb-2">Youth at Risk</h3>
+          <p class="text-gray-700">Over 60% of new drug users are under the age of 18. Early prevention is key.</p>
+        </div>
+        <div class="bg-red-50 rounded-lg shadow p-6">
+          <h3 class="text-lg font-semibold text-red-700 mb-2">Impact on Families</h3>
+          <p class="text-gray-700">Drug abuse destroys families and communities. Say no to protect your loved ones.</p>
+        </div>
+        <div class="bg-red-50 rounded-lg shadow p-6">
+          <h3 class="text-lg font-semibold text-red-700 mb-2">Legal Consequences</h3>
+          <p class="text-gray-700">Drug use and trafficking are serious crimes with severe penalties in India.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Awareness Blog/News Teaser Section -->
+  <section class="py-16 bg-green-50" id="awareness-blog">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-green-800 mb-4">Awareness & News</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-lg shadow-md p-6 text-left">
+          <h3 class="text-lg font-semibold text-green-700 mb-2">How to Spot Drug Abuse</h3>
+          <p class="text-gray-700 mb-2">Learn the warning signs in youth and adults. Early detection saves lives.</p>
+          <a href="#" class="text-blue-600 hover:underline">Read More</a>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6 text-left">
+          <h3 class="text-lg font-semibold text-green-700 mb-2">Community Success Stories</h3>
+          <p class="text-gray-700 mb-2">See how local heroes and police have made a difference in the fight against drugs.</p>
+          <a href="#" class="text-blue-600 hover:underline">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resources Section -->
+  <section id="resources" class="py-16 px-6 bg-green-50">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-green-700 mb-8 text-center">Say NO to Drugs Resources</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center fade-in">
+          <img src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&w=400&q=80" alt="Anti-Drug Support" class="rounded-xl w-full h-40 object-cover mb-4">
+          <h3 class="text-xl font-bold text-green-600 mb-2">Anti-Drug Support</h3>
+          <p class="text-gray-700 text-center mb-3">Resources for those struggling with addiction or helping loved ones. Find treatment centers, counselors, and support groups.</p>
+          <a href="#" class="text-green-700 font-semibold underline">Find Support</a>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center fade-in">
+          <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=400&q=80" alt="NO to Drugs Materials" class="rounded-xl w-full h-40 object-cover mb-4">
+          <h3 class="text-xl font-bold text-green-600 mb-2">NO to Drugs Materials</h3>
+          <p class="text-gray-700 text-center mb-3">Downloadable posters, flyers, and digital content to spread the anti-drug message in your school, workplace, or community.</p>
+          <a href="#" class="text-green-700 font-semibold underline">Download Materials</a>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center fade-in">
+          <img src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?auto=format&fit=crop&w=400&q=80" alt="Drug Facts" class="rounded-xl w-full h-40 object-cover mb-4">
+          <h3 class="text-xl font-bold text-green-600 mb-2">Drug Facts & Effects</h3>
+          <p class="text-gray-700 text-center mb-3">Accurate information about different drugs, their effects, and the consequences of use. Knowledge is power in prevention.</p>
+          <a href="#" class="text-green-700 font-semibold underline">Learn Facts</a>
+        </div>
+      </div>
+      <div class="mt-12 text-center bg-white p-8 rounded-2xl shadow-lg">
+        <h4 class="text-xl font-bold text-green-700 mb-4">Say NO to Drugs Helplines</h4>
+        <div class="grid md:grid-cols-3 gap-4">
+          <div class="p-4 bg-green-50 rounded-lg">
+            <p class="font-bold text-green-700 text-xl">1800-11-0031</p>
+            <p class="text-gray-700">National Anti-Drug Helpline</p>
+          </div>
+          <div class="p-4 bg-green-50 rounded-lg">
+            <p class="font-bold text-green-700 text-xl">14405</p>
+            <p class="text-gray-700">Kerala Excise</p>
+          </div>
+          <div class="p-4 bg-green-50 rounded-lg">
+            <p class="font-bold text-green-700 text-xl">1098</p>
+            <p class="text-gray-700">Childline</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Help Section -->
+  <section class="py-16 bg-red-50" id="contact-help">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-red-700 mb-4">Contact & Help</h2>
+      <p class="text-gray-700 mb-8">If you or someone you know needs help, or if you want to report drug-related activity, please use the contacts below. Your action can save lives!</p>
+      <div class="grid md:grid-cols-3 gap-8 mb-8">
+        <!-- Police Emergency -->
+        <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-red-600 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m4 0h-1v4h-1m-6 4h6a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v11a2 2 0 002 2z" /></svg>
+          <h3 class="text-lg font-semibold text-red-700 mb-1">Police Emergency</h3>
+          <p class="text-gray-600">Call <span class="font-bold">100</span> (India) or your local emergency number to report drug activity or emergencies.</p>
+        </div>
+        <!-- National Anti-Drug Helpline -->
+        <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-green-600 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m0 4v2m0 4v2m0 4v2m6-6h2a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2h2" /></svg>
+          <h3 class="text-lg font-semibold text-green-700 mb-1">National Anti-Drug Helpline</h3>
+          <p class="text-gray-600">Call <span class="font-bold">1800-11-0031</span> (India) for counseling, support, and information.</p>
+        </div>
+        <!-- Report Suspicious Activity -->
+        <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-600 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12H8m8 0a8 8 0 11-16 0 8 8 0 0116 0z" /></svg>
+          <h3 class="text-lg font-semibold text-blue-700 mb-1">Report Suspicious Activity</h3>
+          <p class="text-gray-600 mb-3">Help keep your community safe. Report anonymously if needed.</p>
+          <a href="mailto:reportdrugs@example.com" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Send Email</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-6 mt-6">
+        <h4 class="text-md font-semibold text-green-700 mb-2">Local Support & Rehabilitation</h4>
+        <p class="text-gray-600 mb-2">Find local NGOs, counselors, or rehabilitation centers for ongoing support. <a href="#" class="text-blue-600 underline">See Resources</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-6 bg-gradient-to-r from-green-50 via-white to-green-50">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-green-700 mb-8 text-center">Contact Us</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-2xl shadow-lg p-8 fade-in">
+          <h3 class="text-xl font-bold text-green-600 mb-4">Get in Touch</h3>
+          <p class="text-gray-700 mb-4">Have questions or want to get involved? Reach out to our team.</p>
+          <div class="space-y-2">
+            <p class="text-gray-700"><span class="font-semibold">Address:</span> Kerala Police Headquarters, Thiruvananthapuram, Kerala - 695010</p>
+            <p class="text-gray-700"><span class="font-semibold">Phone:</span> +91 471 2721547</p>
+            <p class="text-gray-700"><span class="font-semibold">Email:</span> info@keralapolice.gov.in</p>
+          </div>
+          <div class="mt-6 flex space-x-4">
+            <a href="#" aria-label="Facebook" class="text-blue-600 hover:text-blue-800">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter" class="text-blue-400 hover:text-blue-600">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+              </svg>
+            </a>
+            <a href="#" aria-label="Instagram" class="text-pink-600 hover:text-pink-800">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266-.057 1.645-.069 4.849-.069 3.259 0 3.668.014 4.948.072 4.354.2 6.782 2.618 6.979 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.979-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.438-.645 1.438-1.44s-.643-1.44-1.438-1.44z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-8 fade-in">
+          <form class="space-y-4">
+            <div>
+              <label for="name" class="block text-gray-700 font-medium mb-1">Your Name</label>
+              <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+            </div>
+            <div>
+              <label for="email" class="block text-gray-700 font-medium mb-1">Your Email</label>
+              <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+            </div>
+            <div>
+              <label for="message" class="block text-gray-700 font-medium mb-1">Message</label>
+              <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+            </div>
+            <button type="button" class="w-full py-3 bg-green-600 text-white font-bold rounded-lg shadow hover:bg-green-700 transition">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-900 text-white py-8 mt-auto">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-4 gap-8">
+      <div>
+        <h3 class="font-bold text-lg mb-2">Family United</h3>
+        <p class="text-sm mb-2">Together, we can build a drug-free future. Report drug-related activities and seek help.</p>
+        <div class="flex space-x-2 mt-2">
+          <a href="#" aria-label="Facebook"><img src="https://img.icons8.com/ios-filled/24/ffffff/facebook-new.png" class="w-5 h-5"></a>
+          <a href="#" aria-label="Twitter"><img src="https://img.icons8.com/ios-filled/24/ffffff/twitter.png" class="w-5 h-5"></a>
+          <a href="#" aria-label="YouTube"><img src="https://img.icons8.com/ios-filled/24/ffffff/youtube-play.png" class="w-5 h-5"></a>
+          <a href="#" aria-label="Instagram"><img src="https://img.icons8.com/ios-filled/24/ffffff/instagram-new.png" class="w-5 h-5"></a>
+        </div>
+      </div>
+      <div>
+        <h4 class="font-bold mb-2">Quick Links</h4>
+        <ul class="text-sm space-y-1">
+          <li><a href="#home" class="hover:text-green-300">Home</a></li>
+          <li><a href="#about" class="hover:text-green-300">About Campaign</a></li>
+          <li><a href="#education" class="hover:text-green-300">Education</a></li>
+          <li><a href="#community" class="hover:text-green-300">Community</a></li>
+          <li><a href="#resources" class="hover:text-green-300">Resources</a></li>
+          <li><a href="#contact" class="hover:text-green-300">Contact</a></li>
+          <li><a href="#contact-help" class="hover:text-green-300">Contact & Help</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold mb-2">Resources</h4>
+        <ul class="text-sm space-y-1">
+          <li><a href="#resources" class="hover:text-green-300">Pamphlets</a></li>
+          <li><a href="#resources" class="hover:text-green-300">Stock Images</a></li>
+          <li><a href="#resources" class="hover:text-green-300">Pinterest Boards</a></li>
+          <li><a href="#" class="hover:text-green-300">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-green-300">Terms of Use</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold mb-2">Contact Us</h4>
+        <p class="text-sm">Kerala Police Headquarters, Thiruvananthapuram, Kerala - 695010</p>
+        <p class="text-sm mt-2">+91 471 2721547</p>
+        <p class="text-sm">info@keralapolice.gov.in</p>
+      </div>
+    </div>
+    <div class="text-center text-xs text-green-200 mt-8 px-6">&copy; 2025 Family United | Say No To Drugs Campaign | All Rights Reserved</div>
+  </footer>
+</body>
+</html>
